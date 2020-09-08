@@ -1,0 +1,25 @@
+{
+    "name": "watchable-jsonpath",
+    "version": "1.0.0",
+    "description": "Watch an object or array for changes with JSONPath indexing.",
+    "license": "MIT",
+    "repository": "illusori/node-watchable-jsonpath",
+    "author": {
+        "name": "Sam Graham",
+        "email": "npm@illusori.co.uk",
+        "url": "http://www.illusori.co.uk/"
+    },
+    "main": "lib/watchable-jsonpath.js",
+    "engines": {
+        "node": ">=10"
+    },
+    "scripts": {},
+    "files": [
+        "lib/"
+    ],
+    "keywords": [],
+    "dependencies": {
+        "watchable": "^1.0.0"
+    }
+    "devDependencies": {}
+}
