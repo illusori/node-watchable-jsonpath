@@ -1,6 +1,6 @@
 {
     "name": "watchable-jsonpath",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Watch an object or array for changes with JSONPath indexing.",
     "license": "MIT",
     "repository": "illusori/node-watchable-jsonpath",
@@ -19,6 +19,7 @@
     ],
     "keywords": [],
     "dependencies": {
+        "jsonpath-plus": "^4.0.0",
         "watchable": "illusori/node-watchable#1.0.0"
     },
     "devDependencies": {}
