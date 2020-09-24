@@ -50,6 +50,10 @@ Removes the given listener from the watch list on that property. If you added an
 
 Gets the raw (unwrapped) value of a property in case you need the non-proxied version for some reasons.
 
+## watchable.listeners(jsonpath)
+
+Returns an array of all listeners for the matching jsonpaths.
+
 # See also
 
  * [on-change](https://github.com/sindresorhus/on-change) - Watch entire objects for non-specific changes.
